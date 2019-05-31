@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/accelXValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/xValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/accelYValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/accelZValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gyroXValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/xValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gyroYValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/gyroZValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/magXValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/xValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/magYValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/magZValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zValue"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/lightValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/light"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/pressureValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pressure"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/tempValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temp"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/humidityValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/humidity"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

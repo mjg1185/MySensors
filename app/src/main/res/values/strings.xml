@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Sensors</string>
+    <string name="xValue">xValue</string>
+    <string name="yValue">yValue</string>
+    <string name="zValue">zValue</string>
+    <string name="light">light</string>
+    <string name="temp">temp</string>
+    <string name="pressure">pressure</string>
+    <string name="humidity">humidity</string>
+</resources>
