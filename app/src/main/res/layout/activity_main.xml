@@ -22,91 +22,91 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/xValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/accelYValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/yValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/accelZValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/zValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/gyroXValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/xValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/gyroYValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/yValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/gyroZValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/zValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/magXValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/xValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/magYValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/yValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/magZValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/zValue"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/lightValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/light"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/pressureValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/pressure"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/tempValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/temp"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/humidityValue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/humidity"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
         </LinearLayout>
     </ScrollView>

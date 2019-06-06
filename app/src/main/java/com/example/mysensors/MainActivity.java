@@ -11,6 +11,7 @@ package com.example.mysensors;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -18,6 +19,8 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
@@ -40,14 +43,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //create dialog box for app info and display to user
-
-
         initGUI(); //initialize all GUI components
         initSensors(); //initialize all sensor components
-
-
-
     }
 
     /**
@@ -74,6 +71,26 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         tempValue = findViewById(R.id.tempValue);
         pressureValue = findViewById(R.id.pressureValue);
         humidityValue = findViewById(R.id.humidityValue);
+
+        //initialize listeners for TextViews
+        accelXValue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                explainAccel();
+            }
+        });
+        accelYValue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                explainAccel();
+            }
+        });
+        accelZValue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                explainAccel();
+            }
+        });
     }
 
     /**
@@ -218,6 +235,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             //display values on TextViews
             humidityValue.setText("Humidity: " + sensorEvent.values[0]);
         }
+
+    }
+
+    public void explainAccel(){
+        startActivity(new Intent(MainActivity.this, accelWindow.class));
 
     }
     

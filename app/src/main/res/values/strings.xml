@@ -7,4 +7,5 @@
     <string name="temp">temp</string>
     <string name="pressure">pressure</string>
     <string name="humidity">humidity</string>
+    <string name="accelExplain">The accelerometer in your phone reads acceleration on 3 axis. If you set your phone on a flat surface, the Z axis should read very close to 9.8 meters per second squared. That is the acceleration due to gravity. Your phone is literally measuring the Earth curving spacetime!</string>
 </resources>
